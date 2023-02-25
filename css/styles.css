@@ -5,3 +5,29 @@
     --color-headings: #1b0760;
     --color-body-text: #918ca4;
 }
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 1.8rem;
+    color: var(--color-body-text);
+}
+
+h1,h2,h3 {
+    color: var(--color-headings);
+}
+
+h1 {
+    font-size: 8rem;    
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
