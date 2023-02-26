@@ -31,3 +31,23 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    font-weight: bold;
+    color: var(--color-accent);
+    text-transform: uppercase;
+}
+
+.link-arrow::after{
+    margin-left: 5px;
+    content: '-->';
+    transition: margin-left 0.2s;
+}
+
+.link-arrow:hover::after{
+    margin-left: 10px;  
+}
