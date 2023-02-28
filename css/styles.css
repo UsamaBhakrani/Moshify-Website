@@ -143,6 +143,7 @@ ul {
     }
     
 }
+/* Inline List Element */
 
 .inline__list {
     margin: 0rem 2rem;
@@ -150,4 +151,50 @@ ul {
     font-weight: 600;
     font-size: 1.5rem;
     
+}
+
+/* Buttons */
+
+.btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 40rem;
+    padding: 2.6rem 3.2rem;
+    margin: 1rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 1px;
+    outline: 0;
+    white-space: nowrap;
+}
+
+.btn__primary {
+    background-color: var(--color-accent);
+    border: 0;   
+}
+
+.btn__secondary {
+    color: var(--color-headings);
+}
+
+.btn__primary:hover {
+    background-color: #d53f18 ;
+}
+
+.card__button:hover {
+    background-color: var(--color-headings);
+    color: #fff;
+}
+
+.search_icon {
+    width: 1.9rem;
+    margin-right: 5px;
+}
+
+.search__button {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 17rem;
+    font-size: 1.5rem;
 }
