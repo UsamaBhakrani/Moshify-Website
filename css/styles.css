@@ -199,9 +199,12 @@ ul {
     font-size: 1.5rem;
 }
 
+/* Icons */
+
 .icon__sprite {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
+    fill: var(--color-primary);
     
 }
 
@@ -211,13 +214,11 @@ ul {
     align-items: center;
     height: 120px;
     width: 120px;
-    border-radius: 60px; 
+    border-radius: 70px;  
+       
 }
 
 .icon__primary {
-    background-color: cyan;
-}
-
-.icon__secondary {
-    background-color: coral;
+    background-color: #f3f9fa;
+        
 }
