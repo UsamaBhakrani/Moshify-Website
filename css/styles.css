@@ -198,3 +198,26 @@ ul {
     width: 17rem;
     font-size: 1.5rem;
 }
+
+.icon__sprite {
+    height: 90px;
+    width: 90px;
+    
+}
+
+.icon__background {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px; 
+}
+
+.icon__primary {
+    background-color: cyan;
+}
+
+.icon__secondary {
+    background-color: coral;
+}
