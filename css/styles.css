@@ -152,13 +152,13 @@ ul {
     font-size: 1.5rem;
     
 }
-
+/* TODO: Write Media Queries for Desktop */
 /* Buttons */
 
 .btn {
     font-size: 1.8rem;
     font-weight: 600;
-    width: 40rem;
+    width: 400px;
     padding: 2.6rem 3.2rem;
     margin: 1rem;
     border-radius: 50px;
@@ -169,43 +169,67 @@ ul {
     white-space: nowrap;
 }
 
-.btn__primary {
+.btn__orange {
     background-color: var(--color-accent);
     border: 0;   
 }
 
-.btn__secondary {
+.card__button {
     color: var(--color-headings);
 }
 
 .btn__primary:hover {
-    background-color: #d53f18 ;
-}
-
-.card__button:hover {
     background-color: var(--color-headings);
     color: #fff;
+    border:0;
 }
 
+.btn__secondary:hover {
+    background-color: var(--color-secondary);
+    color: #fff;
+    border:0;
+}
+
+.btn__orange:hover {
+    background-color: #d53f18 ;
+}    
+
 .search_icon {
-    width: 1.9rem;
+    width: 19px;
     margin-right: 5px;
 }
 
 .search__button {
     display: inline-flex;
     justify-content: space-evenly;
-    width: 17rem;
+    width: 170px;
+    font-size: 15px;
+}
+
+@media screen and (min-width:1024px){
+
+.btn {
     font-size: 1.5rem;
+}
+
+.btn__orange {
+    width: 170px;
+    padding: 2rem;
+}
+
+.card__button {
+    width: 260px;
+}
+
+    
 }
 
 /* Icons */
 
 .icon__sprite {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     fill: var(--color-primary);
-    
 }
 
 .icon__background {
@@ -215,10 +239,25 @@ ul {
     height: 120px;
     width: 120px;
     border-radius: 70px;  
-       
 }
 
 .icon__primary {
     background-color: #f3f9fa;
-        
 }
+
+@media screen and (min-width:1024px){
+    
+    .icon__sprite {
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon__background {
+        height: 90px;
+        width: 90px;
+        border-radius: 70px;
+    }  
+    
+}
+
+
