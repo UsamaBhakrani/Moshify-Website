@@ -158,9 +158,8 @@ ul {
 .btn {
     font-size: 1.8rem;
     font-weight: 600;
-    width: 400px;
+    width: 40rem;
     padding: 2.6rem 3.2rem;
-    margin: 1rem;
     border-radius: 50px;
     text-transform: uppercase;
     color:#fff;
@@ -239,7 +238,8 @@ ul {
     align-items: center;
     height: 120px;
     width: 120px;
-    border-radius: 70px;  
+    border-radius: 50px;
+
 }
 
 .icon__primary {
@@ -266,14 +266,14 @@ ul {
 .input__domain {
     font-weight: 400;
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 50px;
-    border: 1px solid grey;
     outline: 0;
+    border: 0;
     color: var(--color-headings);
 }
 ::placeholder {
-    color: grey;
+    color: #ccc;
 }
 
 @media screen and (min-width: 1024px) {
@@ -281,6 +281,17 @@ ul {
         font-size: 2rem;
     }
     
+}
+
+/* Input Group */
+
+.input__group { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 4px #ccc;
 }
 
 /* Media Component */
