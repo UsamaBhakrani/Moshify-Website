@@ -152,7 +152,7 @@ ul {
     font-size: 1.5rem;
     
 }
-/* TODO: Write Media Queries for Desktop */
+
 /* Buttons */
 
 .btn {
@@ -167,6 +167,7 @@ ul {
     letter-spacing: 1px;
     outline: 0;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .btn__orange {
@@ -179,7 +180,7 @@ ul {
 }
 
 .btn__primary:hover {
-    background-color: var(--color-headings);
+    background-color: var(--color-primary);
     color: #fff;
     border:0;
 }
@@ -257,6 +258,28 @@ ul {
         width: 90px;
         border-radius: 70px;
     }  
+    
+}
+
+/* Input Field */
+
+.input__domain {
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 50px;
+    border: 1px solid grey;
+    outline: 0;
+    color: var(--color-headings);
+}
+::placeholder {
+    color: grey;
+}
+
+@media screen and (min-width: 1024px) {
+    .input__domain {
+        font-size: 2rem;
+    }
     
 }
 
