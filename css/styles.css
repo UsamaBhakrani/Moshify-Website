@@ -141,7 +141,9 @@ ul {
     .card__options {
         font-size: 1.5rem;
     }
-    
+    .card__options {
+        margin: 2rem;
+    }
 }
 /* Inline List Element */
 
@@ -158,16 +160,16 @@ ul {
 .btn {
     font-size: 1.8rem;
     font-weight: 600;
-    width: 40rem;
+    width: 36rem;
     padding: 2.6rem 3.2rem;
     border-radius: 50px;
     text-transform: uppercase;
     color:#fff;
     letter-spacing: 1px;
-    outline: 0;
     white-space: nowrap;
     cursor: pointer;
-    margin: 0 0 20px 15px;
+    margin: 15px 25px;
+    outline: 0;
 }
 
 .btn__orange {
@@ -180,15 +182,15 @@ ul {
 }
 
 .btn__primary:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-headings);
     color: #fff;
-    border:0;
+    border:2px solid var(--color-headings);
 }
 
 .btn__secondary:hover {
     background-color: var(--color-secondary);
     color: #fff;
-    border:0;
+    border:2px solid var(--color-secondary);
 }
 
 .btn__orange:hover {
@@ -298,11 +300,8 @@ ul {
 /* Card Components */
 
 .plans {
+    width: 35rem;
     margin-left: 5rem;
-    display:inline-flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
     border: 2px solid #ccc;
     border-radius: 1rem;  
     white-space: nowrap;
@@ -311,13 +310,12 @@ ul {
 }
 
 .card__component__primary {
-    padding: 0 90px 0 35px;
     color: #fff;
     background-color: var(--color-primary);   
 }
 
 .card__component__secondary {
-    padding: 0 90px 0 35px;
+    padding: 0 0 0 35px;
     color: #fff;
     background-color: var(--color-secondary);
 }
@@ -329,7 +327,6 @@ ul {
 .card__component__secondary .badge__secondary {
     background: #02cdf1;
 }
-
 
 .plan__heading {
     font-weight: 600;
@@ -350,14 +347,40 @@ ul {
     opacity: 0.8;
 }
 
-
-
-
 .plan__easy__start {
     font-weight: 300;
     font-size: 2rem;
     margin: 20px 0px 0px;
     padding-bottom: 26px;
+}
+
+.card__buynow__button {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .plan__heading {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .plan__price {
+        font-weight: 400;
+        font-size: 5rem;
+    }
+
+    .plan__per__month {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    .plan__easy__start {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
 }
 
 
