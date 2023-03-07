@@ -89,7 +89,7 @@ a {
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
-    padding: 1rem 2.2rem 1.2rem;
+    padding: 0.5rem 2.2rem 1.2rem;
     border-radius: 3rem;
     white-space: nowrap;
 }
@@ -125,7 +125,7 @@ ul {
     list-style: none;
     font-weight: 500;
     margin: 0;
-    padding: 0;
+    padding: 10px 0px 10px 0px;
     white-space: nowrap;
 }
 
@@ -167,6 +167,7 @@ ul {
     outline: 0;
     white-space: nowrap;
     cursor: pointer;
+    margin: 0 0 20px 15px;
 }
 
 .btn__orange {
@@ -218,7 +219,7 @@ ul {
 }
 
 .card__button {
-    width: 260px;
+    width: 26rem;
 }
 
     
@@ -293,6 +294,72 @@ ul {
     border-radius: 50px;
     box-shadow: 0px 0px 4px #ccc;
 }
+
+/* Card Components */
+
+.plans {
+    margin-left: 5rem;
+    display:inline-flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid #ccc;
+    border-radius: 1rem;  
+    white-space: nowrap;
+    box-shadow: 0 0 20px 10px #ccc;
+    overflow: hidden;
+}
+
+.card__component__primary {
+    padding: 0 90px 0 35px;
+    color: #fff;
+    background-color: var(--color-primary);   
+}
+
+.card__component__secondary {
+    padding: 0 90px 0 35px;
+    color: #fff;
+    background-color: var(--color-secondary);
+}
+
+.card__component__primary .badge__primary {
+    background: #126de4;
+}
+
+.card__component__secondary .badge__secondary {
+    background: #02cdf1;
+}
+
+
+.plan__heading {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0 0 5px 0;
+    padding: 30px 0 10px;
+}
+
+.plan__price {
+    font-weight: 400;
+    font-size: 6rem;
+}
+
+.plan__per__month {
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-right: 2rem;
+    opacity: 0.8;
+}
+
+
+
+
+.plan__easy__start {
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 20px 0px 0px;
+    padding-bottom: 26px;
+}
+
 
 /* Media Component */
 
