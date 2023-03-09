@@ -387,30 +387,27 @@ ul {
 /* Media Component */
 
 .media__component{
-    display: inline-flex;
+    display: flex;
     background-color: black;
     margin: 0;
 }
 
 .media__body {
-    display: inline-block;
     margin: 0;
     letter-spacing: -1px;
 }
 
 .media__icon {
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    margin: 13px;
+    margin: 5px 13px;
     width: 40px;
+    height: 50px;
 }
 
 .media__heading {
     font-size: 2.4rem;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 0;
+    margin: 0;
 
 }
 .media__paragraph {
@@ -419,4 +416,46 @@ ul {
     color: #7b858b;
     margin-top: 18px;
     width: 35ch;
+}
+
+/* Quote Paragraph */
+
+.quote__paragraph {
+    margin: 10px 0;
+    font-size: 3rem;
+    color: #5c5577;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.quote__paragraph::before {
+    content: open-quote;
+}
+
+
+.quote__paragraph::after {
+    content: close-quote;
+}
+
+.quote__line {
+    width: 60px;
+    padding: 0 10px 37px 0;
+}
+
+.quote__name__group {
+    display: inline-block;
+
+}
+
+.quote_name {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.quote__designation {
+    font-size: 1.8rem;
+    margin-top: 8px;
+    color: #d4d2d9;
+    font-weight: 400;
 }
